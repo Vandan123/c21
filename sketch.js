@@ -16,7 +16,7 @@ wall.shapeColor=(80,80,80);
 }
 
 function draw() {
-  background(255,255,255);  
+  background("black");  
 
   if(hasCollided(bullet, wall))
   {
